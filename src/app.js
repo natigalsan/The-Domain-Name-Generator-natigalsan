@@ -1,10 +1,10 @@
-let pronoun = ["the", "our"];
-let adj = ["great", "big"];
-let noun = ["jogger", "racoon"];
-let dominios = [".com", ".net", ".us"];
 //-----------------------------------según enunciado usar bucles anidados----------------------------------------
-window.onload = function() {
+function buclesAnidados() {
   //write your code here
+  let pronoun = ["the", "our"];
+  let adj = ["great", "big"];
+  let noun = ["jogger", "racoon"];
+  let dominios = [".com", ".net", ".us"];
   for (let i = 0; i < pronoun.length; i++) {
     for (let j = 0; j < adj.length; j++) {
       for (let x = 0; x < noun.length; x++) {
@@ -14,4 +14,5 @@ window.onload = function() {
       }
     }
   }
-};
+}
+buclesAnidados();
